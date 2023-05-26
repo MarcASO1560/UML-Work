@@ -12,17 +12,17 @@ La aplicación contará con un "MenúCliente", donde los usuarios podrán:
 
 ### Búsqueda de videojuegos y feedback de los usuarios.
 
-La búsqueda de videojuegos se manejará mediante la clase "BibliotecaVJ", que mostrará los géneros de videojuegos disponibles. 
+La búsqueda de videojuegos se manejará mediante la clase "BibliotecaVJ", que mostrará los géneros de videojuegos disponibles, calcular la cantidad total de videojuegos existentes en la tienda (para presumir) y acceder a la clase "GeneroVJ" que tembién contiene un contador de juegos del género, y la lista con los nombres de los videojuegos. Esta clase de "GeneroVJ" esta conectada a la clase "Videojuego".
 
-La clase "BibliotecaVJ" se conectará con "GeneroVJ", que contendrá todos los juegos de cada género. 
+La clase "BibliotecaVJ" se compone por al menos un videojuego.
 
-Finalmente, "Videojuego" estará conectada con "ReseñaVJ" para que los usuarios puedan escribir y publicar reseñas con puntuaciones de los juegos, proporcionando un feedback valioso para la mejora continua de nuestros videojuegos.
+La clase "Videojuego" estará conectada con "ReseñaVJ" para que los usuarios puedan escribir y publicar reseñas con puntuaciones de los juegos, proporcionando un feedback valioso para la mejora continua de nuestros videojuegos.
+
+Un videojuego no tiene porque tener reseñas.
 
 ### Proceso de compra.
 
-A su vez, "GeneroVJ" se vinculará con "Videojuego", permitiendo acciones como la compra del juego. Para gestionar el proceso de compra, "Videojuego" se conectará con "Pago".
-
-Esta clase también estará vinculada con "Carrito", lo que permitirá la compra de varios juegos a la vez.
+Para gestionar el proceso de compra, "Videojuego" se conectará con "Pago", que también estará vinculada con "Carrito", lo que permitirá la compra de varios juegos a la vez o de un solo videojuego.
 
 ### Atencion al cliente.
 
