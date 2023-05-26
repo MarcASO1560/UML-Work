@@ -1,7 +1,8 @@
 # UML de cosecha propia.
+## Enunciado:
+---
 ## Sistema de Ventas Online de Videojuegos
-
-Estamos planificando el desarrollo de un **sistema de ventas en línea** para nuestra empresa de videojuegos. El objetivo es diseñar una aplicación que permita a los usuarios comprar videojuegos directamente desde nuestra plataforma. Para ello, necesitaremos un Diagrama UML que nos ayude a estructurar y visualizar la aplicación.
+El objetivo es diseñar una aplicación que permita a los usuarios comprar videojuegos directamente desde nuestra plataforma. Para ello, necesitaremos un Diagrama UML que nos ayude a estructurar y visualizar la aplicación.
 
 ### MenúCliente
 
