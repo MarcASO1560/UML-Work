@@ -1,13 +1,14 @@
 # UML de cosecha propia. (Parte A)
 ## Enunciado: Sistema de Ventas Online de Videojuegos.
-El objetivo es diseñar una aplicación que permita a los usuarios comprar videojuegos directamente desde nuestra plataforma. Para ello, necesitaremos un Diagrama UML que nos ayude a estructurar y visualizar la aplicación.
+
+El objetivo es diseñar una aplicación que permita a los usuarios comprar videojuegos.
 
 ### Menú del cliente.
 
-La aplicación contará con un "MenúCliente", donde los usuarios podrán:
+La aplicación constará con un "MenúCliente", donde los usuarios podrán:
 
 - Buscar videojuegos
-- Ver su carrito de compras
+- Ver carrito de compras
 - Acceder al servicio de atención al cliente
 
 La clase "Carrito" tiene la función de almacenar los nombres de los juegos junto a sus precio. A parte puede acceder directamente con la biblioteca de videojuegos (que se explica más adelante) para agregar nuevos juegos al carrito. Y al igual que se pueden egregar, también se pueden quitar. 
