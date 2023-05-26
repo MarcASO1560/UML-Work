@@ -10,6 +10,8 @@ La aplicación contará con un "MenúCliente", donde los usuarios podrán:
 - Ver su carrito de compras
 - Acceder al servicio de atención al cliente
 
+La clase "Carrito" tiene la función de almacenar los nombres de los juegos junto a sus precio. A parte puede acceder directamente con la biblioteca de videojuegos (que se explica más adelante) para agregar nuevos juegos al carrito. Y al igual que se pueden egregar, también se pueden quitar. 
+
 ### Búsqueda de videojuegos y feedback de los usuarios.
 
 La búsqueda de videojuegos se manejará mediante la clase "BibliotecaVJ", que mostrará los géneros de videojuegos disponibles, calcular la cantidad total de videojuegos existentes en la tienda (para presumir) y acceder a la clase "GeneroVJ" que tembién contiene un contador de juegos del género, y la lista con los nombres de los videojuegos. Esta clase de "GeneroVJ" esta conectada a la clase "Videojuego".
@@ -26,7 +28,7 @@ Para gestionar el proceso de compra, "Videojuego" se conectará con "Pago", que 
 
 ### Atencion al cliente.
 
-En "AtencionCliente" se busca que el usuario pueda comunicarse con los trabajadores mediante un correo que se escribiría desde el propio programa o bien comunicandose dejando el numero de teléfono en especifico en una esquina para que el cliente pueda llamar si lo vé necesario.
+En "AtencionCliente" se busca que el usuario pueda comunicarse con los trabajadores mediante un correo que se escribiría desde el propio programa o bien comunicandose dejando el numero de teléfono en especifico en una esquina para que el cliente pueda llamar si lo vé necesario. 
 
 ## Resultado:
 
