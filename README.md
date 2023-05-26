@@ -26,4 +26,9 @@ Esta clase también estará vinculada con "Carrito", lo que permitirá la compra
 
 ### Atencion al cliente.
 
+En "AtencionCliente" se busca que el usuario pueda comunicarse con los trabajadores mediante un correo que se escribiría desde el propio programa o bien comunicandose dejando el numero de teléfono en especifico en una esquina para que el cliente pueda llamar si lo vé necesario.
+
+## Resultado:
+
+![Modelo UML]()
 
