@@ -1,20 +1,25 @@
 # UML de cosecha propia.
-La tienda online de videojuegos se compone de varias entidades principales:
+Sistema de Ventas Online de Videojuegos
 
-    MenuCliente: Esta es la interfaz principal que el cliente utiliza para interactuar con la tienda.
+Estamos planificando el desarrollo de un sistema de ventas en línea para nuestra empresa de videojuegos. El objetivo es diseñar una aplicación que permita a los usuarios comprar videojuegos directamente desde nuestra plataforma. Para ello, necesitaremos un Diagrama UML que nos ayude a estructurar y visualizar la aplicación.
+MenúCliente
 
-    Carrito: Representa el carrito de compras del cliente, donde se almacenan los videojuegos que el cliente planea comprar.
+La aplicación contará con un "MenúCliente", donde los usuarios podrán:
 
-    Videojuego: Representa un videojuego que se puede comprar en la tienda.
+    Buscar videojuegos
+    Ver su carrito de compras
+    Acceder al servicio de atención al cliente
 
-    Pago: Maneja el pago de los videojuegos que el cliente ha añadido a su carrito.
+Búsqueda de Videojuegos
 
-    FiltraBibliotecaVJ: Permite al cliente filtrar la biblioteca de videojuegos de alguna manera.
+La búsqueda de videojuegos se manejará mediante la clase "BibliotecaVJ", que mostrará los géneros de videojuegos disponibles.
 
-    TieneGeneroVJ: Está relacionada con los géneros de los videojuegos.
+La clase "BibliotecaVJ" se conectará con "GeneroVJ", que contendrá todos los juegos de cada género.
+Proceso de Compra
 
-    ResenyaVJ: Representa una reseña de un videojuego.
+A su vez, "GeneroVJ" se vinculará con "Videojuego", permitiendo acciones como la compra del juego. Para gestionar el proceso de compra, "Videojuego" se conectará con "Pago".
 
-    AtencionCliente: Maneja las cuestiones de atención al cliente.
+Esta clase también estará vinculada con "Carrito", lo que permitirá la compra de varios juegos a la vez.
+Feedback de Usuarios
 
-Los métodos asociados con estas clases permiten al cliente buscar videojuegos, gestionar su carrito de compras, comprar videojuegos, pagar sus compras, filtrar videojuegos por género, gestionar sus reseñas y manejar cuestiones de atención al cliente.
+Finalmente, "Videojuego" estará conectada con "ReseñaVJ" para que los usuarios puedan escribir y publicar reseñas con puntuaciones de los juegos, proporcionando un feedback valioso para la mejora continua de nuestros videojuegos.
