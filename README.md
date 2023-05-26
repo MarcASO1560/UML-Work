@@ -30,5 +30,5 @@ En "AtencionCliente" se busca que el usuario pueda comunicarse con los trabajado
 
 ## Resultado:
 
-![Modelo UML](UML_Propia_Cosecha.drawio.png)
+![Modelo UML](UML_Propia_Cosecha.jpg)
 
